@@ -1,5 +1,5 @@
 # jsTouch
-Mini js library function for easily detecting touch gestures. Works on all mobile/desktop browsers, but only tracks single finger/mouse gestures.
+Mini js library function for easily detecting touch gestures. Works the same on all mobile/desktop browsers that support ES5.
 
 # Installation
 Download the jsTouch.prod.js file in the Dist folder in this repository and add it as a new script tag to the HTML of your webapp or site.
@@ -10,7 +10,7 @@ In vanilla javascript, a click is detected with DOMNode.addEventListener('click'
 
 With jsTouch installed, additional touch events can be detected by using addGestureListner.
 DOMNode.addGestureListener('swipeLeft',functionToPerform);
-
+gestures
 --Currently Supported Gestures--
 circle : gesture draws a circle shape
 swipeLeft or swipeRight : Straight horizontal swipe
