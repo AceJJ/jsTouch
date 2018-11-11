@@ -5,7 +5,7 @@
 			listen(self, gesture, callback);
 		};
 	}
-	catch{
+	catch(e){
 		if(!!console) {
 			console.log('Warning: This browser does not support adding .addGestureListener() to DOM node prototypes. As an alternative, global function addGestureListener(targetElement, gesture, callback) has been created. Please use this function within this browser.');
 		}
