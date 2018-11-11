@@ -1,5 +1,5 @@
 # jsTouch
-Mini js library for easily detecting touch gestures. Works on all mobile/desktop browsers, but only tracks single finger/mouse gestures.
+Mini js library function for easily detecting touch gestures. Works on all mobile/desktop browsers, but only tracks single finger/mouse gestures.
 
 # Installation
 Download the jsTouch.prod.js file in the Dist folder in this repository and add it as a new script tag to the HTML of your webapp or site.
